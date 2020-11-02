@@ -1,0 +1,25 @@
+.hero {
+  height: 100vh;
+}
+
+.windmill {
+  height: 50%;
+  
+}
+
+.balls {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transform: translateY(0);
+  animation: fly 3s linear infinite;
+  border-radius: 50%;
+}
+
+@keyframes fly {
+  to {
+      transform: translateY(-110vh);
+  }
+}
